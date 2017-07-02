@@ -16,7 +16,7 @@
                                       for (let i = 0; i < packgeArray.length; i++) { 
 
                                         if(packgeArray[i]===null||(packgeArray[i]===undefined))
-                                              throw "Invalid Array : Array must not contain null value";
+                                              throw new Error("Invalid Array : Array must not contain null value");
         
                                          temp=packgeArray[i].split(":");                    // split Package Name and dependencies by colon(:) 
 		                               
@@ -39,8 +39,8 @@
                                         if((orderlist.indexOf(temp[0])>-1) && (orderlist.indexOf(temp[1])>-1)){         // check for cycle of dependencies 
 				
 			                                if(orderlist.indexOf(temp[1])>orderlist.indexOf(temp[0]))
-					                           throw "Invalid Dependencies Array : "
-					                                  + "dependency specification must not contains cycles order. ";
+					                           throw new Error("Invalid Dependencies Array  : "
+			                                                        + "dependency specification must not contains cycles order. ");
                                              break;				
 			                        }
 

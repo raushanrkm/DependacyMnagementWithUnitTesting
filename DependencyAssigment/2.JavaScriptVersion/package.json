@@ -1,0 +1,15 @@
+{
+  "name": "2.javascriptversion",
+  "version": "1.0.0",
+  "description": "javascript version of unit testing",
+  "main": "packagemanager.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
