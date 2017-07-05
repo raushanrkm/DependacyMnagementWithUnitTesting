@@ -45,4 +45,4 @@ and  testForOrderDependency)
 
 9. in system Enviroment variable setup for example(JUNIT_HOME = C:\Users\Dell-PC\JunitContainingFolder)
 
-and (CLASSPATH = %CLASSPATH%;%JUNIT_HOME%\JUnit4.12.jar;).
+and (CLASSPATH = %CLASSPATH%;%JUNIT_HOME%\JUnit4.12.jar;). 
