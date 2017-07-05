@@ -8,8 +8,7 @@
 2. we can directly run in test mode for that go to project root diector through terminal.
 
 3. type command: (npm run test). for example (C:\Users\Dell-PC\Desktop\Gitfolder
-\DependencyAssigment\2.JavaScriptVersion>npm r
-un test)
+\DependencyAssigment\2.JavaScriptVersion>npm run test)
 
 4. i used 4 test case ( Cycle of depedencies, Format input of depedecies, null and udefined value inside input Array 
 and Null referance Array)
@@ -26,11 +25,11 @@ Instruction for Java Version of code:
 ---------------------------------------------------------------------------
 1.download projct and import in eclipse
 
-2.we can directly run project as Junit test by eclipse.
+2.we can directly run project as Junit test in eclipse.
 
 3. junit test code are inside (test.smartrecruitet.coding.PackageManagerTest.java)
 
-4. i used there 5 test case (testForCycleDepedecies,testForParameterForArrayNullReferance,
+4.there, i used  5 test case (testForCycleDepedecies,testForParameterForArrayNullReferance,
 testForParameterForArrayContainNullValue, testForParameterForEmptyElemntOfArray 
 and  testForOrderDependency)
 
