@@ -24,7 +24,7 @@ and Null referance Array)
 
 Instruction for Java Version of code:
 ---------------------------------------------------------------------------
-1.download and import in eclipse
+1.download projct and import in eclipse
 
 2.we can directly run project as Junit test by eclipse.
 
@@ -34,7 +34,7 @@ Instruction for Java Version of code:
 testForParameterForArrayContainNullValue, testForParameterForEmptyElemntOfArray 
 and  testForOrderDependency)
 
-5. output of code i.e orderlist can directly view while running project java Application.
+5. output of code i.e orderlist can directly view while running project as java Application.
  
      ***** not Mandatory for your pc******
 
